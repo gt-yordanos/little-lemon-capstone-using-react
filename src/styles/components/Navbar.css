@@ -19,12 +19,15 @@
 }
 .nav-logo{
   width: 130px;
+  cursor: pointer;
 }
 .nav-container li{
   list-style: none;
+  cursor: pointer;
 }
 .humbergur{
   display: none;
+  cursor: pointer;
 }
 .order-button{
   padding: 10px 20px;

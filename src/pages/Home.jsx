@@ -41,7 +41,7 @@ const Home = () => {
       <Hero />
       <div className="todays-menu">
         <div className="top-text">
-        <h2>This Weeks special</h2>
+        <h2>This Weeks specials</h2>
         <button>Menu</button>
         </div>
         <div className="todays-menu-container">

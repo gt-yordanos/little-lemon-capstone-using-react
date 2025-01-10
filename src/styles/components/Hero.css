@@ -23,7 +23,7 @@
 }
 .hero-text p{
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
   margin: 20px 0;
   color: white;
 }
@@ -64,7 +64,6 @@
   }
   .hero-text p{
     font-size: 12px;
-    font-weight: 100;
   }
   .hero-text button{
     width: 200px;
@@ -113,7 +112,6 @@
   }
   .hero-text p{
     font-size: 10px;
-    font-weight: 100;
   }
   .hero-text button{
     width: 200px;
