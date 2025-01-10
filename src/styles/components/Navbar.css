@@ -22,7 +22,7 @@
 .nav-container li{
   list-style: none;
 }
-.humbergur, .cart{
+.humbergur{
   display: none;
 }
 @media (max-width: 800px) {
@@ -30,11 +30,11 @@
     padding: 0 25px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 655px) {
   .nav-container ul{
     display: none;
   }
-  .humbergur, .cart{
+  .humbergur{
     display: inline;
   }
 }

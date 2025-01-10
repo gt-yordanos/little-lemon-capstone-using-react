@@ -12,7 +12,7 @@
   flex-direction: column;
 }
 .hero-text h1{
-  color: #F9A826;
+  color: #F4CE14;
   font-size: 40px;
   font-weight: 700;
 }
@@ -30,7 +30,7 @@
 .hero-text button{
   padding: 10px 20px;
   width: 200px;
-  background: #F9A826;
+  background: #F4CE14;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-weight: 600;

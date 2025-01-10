@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="nav-container">
       <div className="humbergur">
-        <GiHamburgerMenu size={24} style={{ cursor: 'pointer' }} />
+        <GiHamburgerMenu size={24} style={{ cursor: 'pointer', color:'#495E57'}} />
       </div>
       <img src={littleLemonLogo} alt="" className='nav-logo' />
       <ul>
@@ -16,11 +16,11 @@ const Navbar = () => {
         <li>About</li>
         <li>Menu</li>
         <li>Reservation</li>
-        <li>Order</li>
+        <li>Order Online</li>
         <li>Login</li>
       </ul>
       <div className="cart">
-        <FaShoppingCart size={24} style={{ cursor: 'pointer' }} />
+        <FaShoppingCart size={24} style={{ cursor: 'pointer', color: '#495E57' }} />
       </div>
     </nav>
   )
