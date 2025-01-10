@@ -1,0 +1,53 @@
+.menu-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+  background-color: rgb(241, 241, 241);
+  width: 280px;
+  overflow: hidden;
+}
+.menu-card-container .image-container{
+  width: 100%;
+  height: 230px;
+  object-fit: fill;
+  overflow: hidden;
+}
+.menu-card-container .image-container img{
+  width: 100%;
+}
+.menu-card-container .text-container{
+  padding: 5px 20px;
+  text-align: center;
+}
+.menu-card-container .text-container .price-and-name{
+  display: flex;
+  justify-content: space-between;
+}
+.price, .food-name{
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(64, 64, 64);
+}
+.price{
+  color: rgb(196, 110, 110);
+}
+.food-description{
+  font-size: 14px;
+  color: rgb(64, 64, 64);
+  text-align: left;
+  margin: 20px 0;
+}
+.order-delivery{
+  width: 100%;
+  padding: 5px 20px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
