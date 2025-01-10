@@ -3,7 +3,7 @@
   justify-content: space-between;
   gap: 20px;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 10%;
 }
 .nav-container ul{
   display: flex;
@@ -23,4 +23,17 @@
 }
 .humbergur, .cart{
   display: none;
+}
+@media (max-width: 800px) {
+  .nav-container{
+    padding: 0 25px;
+  }
+}
+@media (max-width: 550px) {
+  .nav-container ul{
+    display: none;
+  }
+  .humbergur, .cart{
+    display: inline;
+  }
 }
