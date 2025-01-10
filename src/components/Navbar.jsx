@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>About</li>
         <li>Menu</li>
         <li>Reservation</li>
-        <li>Order Online</li>
+        <li className='order-button'>Order Online</li>
         <li>Login</li>
       </ul>
       <div className="cart">

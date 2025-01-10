@@ -10,6 +10,7 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
+  align-items: center;
   gap: 10px;
   padding: 0 10px;
   font-size: 16px;
@@ -24,6 +25,15 @@
 }
 .humbergur{
   display: none;
+}
+.order-button{
+  padding: 10px 20px;
+  background: #495E57;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 17px;
 }
 @media (max-width: 800px) {
   .nav-container{
