@@ -2,44 +2,115 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 10%;
+  padding: 0 10% 4% 10%;
   background: #495E57;
+  gap: 100px;
 }
 .hero-text{
   width: 50%;
-  color: white;
-  background: #000;
   display: flex;
   flex-direction: column;
 }
 .hero-text h1{
+  color: #F9A826;
   font-size: 40px;
   font-weight: 700;
-  background: red;
 }
 .hero-text span{
+  color: white;
   font-size: 30px;
   font-weight: 700;
 }
 .hero-text p{
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 100;
   margin: 20px 0;
-  background-color: aqua;
+  color: white;
 }
 .hero-text button{
   padding: 10px 20px;
+  width: 200px;
   background: #F9A826;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-weight: 600;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
-.hero-img{
+.hero-image-container{
+  display: flex;
+  justify-content: flex-end;
   width: 50%;
 }
-.hero-img img{
-  width: 100%;
+.hero-image-container img{
+  position: relative;
+  transform: rotate(90deg);
+  bottom: -90PX;
+  height: 350px;
+  border-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .hero-container{
+    padding: 2% 10% 5% 10%;
+  }
+  .hero-text h1{
+    font-size: 30px;
+  }
+  .hero-text span{
+    font-size: 25px;
+  }
+  .hero-text p{
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .hero-text button{
+    width: 200px;
+    font-size: 15px;
+  }
+  .hero-image-container img{
+    bottom: -70PX;
+    height: 260px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-container{
+    padding: 5% 10% 8% 10%;
+    gap: 100px;
+  }
+  .hero-image-container img{
+    position: relative;
+    bottom: 0PX;
+    height: 210px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-container{
+    padding: 5% 5% 8% 5%;
+    gap: 50px;
+  }
+  .hero-image-container img{
+    position: relative;
+    bottom: 0PX;
+    height: 150px;
+  }
+}
+@media (max-width: 430px) {
+  .hero-text h1{
+    font-size: 25px;
+  }
+  .hero-text span{
+    font-size: 20px;
+  }
+  .hero-text p{
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .hero-text button{
+    width: 200px;
+    font-size: 12px;
+  }
+  .hero-image-container img{
+    height: 110px;
+  }
 }

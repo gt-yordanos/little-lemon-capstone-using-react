@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/components/Hero.css'
-import salad from '../assets/salad.jpg'
+import saladImage from '../assets/saladImage.jpg'
 const Hero = () => {
   return (
     <div className="hero-container">
@@ -10,14 +10,14 @@ const Hero = () => {
         <span>Chicago</span>
         </h1>
         <p>
-          We are a family-owned Mediterranean restaurant,
-          focused on traditional recipes served with a modern twist.
+          We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. 
+          Our chefs use only the freshest ingredients to create dishes that are both flavorful and healthy. 
         </p>
         <button>Reserve a Table</button>
       </div>
 
       <div className='hero-image-container'>
-        <img src={salad} alt="" className="hero-image" />
+        <img src={saladImage} alt="" className="hero-image" />
       </div>
     </div>
   )
