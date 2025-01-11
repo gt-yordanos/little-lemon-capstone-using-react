@@ -1,7 +1,7 @@
 .menu-card-container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   border-radius: 15px;
@@ -16,11 +16,13 @@
 .menu-card-container .image-container{
   width: 100%;
   height: 220px;
-  object-fit: cover;
   overflow: hidden;
+  background: #000;
 }
 .menu-card-container .image-container img{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .menu-card-container .text-container{
   padding: 5px 20px;

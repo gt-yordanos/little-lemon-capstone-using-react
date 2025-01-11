@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuCard from '../components/MenuCard';
+import '../Styles/pages/Menu.css'
 import pizzaImage from '../assets/pizzaImage.jpg'
 import sushiImage from '../assets/sushiImage.jpg'
 import pastaImage from '../assets/pastaImage.jpg'
@@ -9,7 +10,7 @@ import iceCreamImage from '../assets/iceCreamImage.jpg'
 import smoothieImage from '../assets/smoothieImage.jpg'
 import pancakesImage from '../assets/pancakesImage.jpg'
 import ramenImage from '../assets/ramenImage.jpg'
-import friedRiceImage from '../assets/pancakesImage.jpg'
+import friedRiceImage from '../assets/friedRice.jpg'
 
 const Menu = () => {
   const foodDetails = [
@@ -80,7 +81,7 @@ const Menu = () => {
       <h1>Our Menu</h1>
       <div className="menu-container">
         {foodDetails.map((foodDetail, index) => (
-          <Menu key={index} foodDetail={foodDetail} />
+          <MenuCard key={index} foodDetail={foodDetail} />
         ))}
       </div>
     </div>
