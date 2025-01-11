@@ -32,7 +32,11 @@
   transition: color 0.1s ease;
 }
 .nav-container ul  .link:hover{
-  color:#495E57;
+  color:#e39f00;
+}
+.link.active {
+  color: #e39f00;
+  font-weight: bold;
 }
 .humbergur{
   display: none;
