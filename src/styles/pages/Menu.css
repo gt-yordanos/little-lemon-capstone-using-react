@@ -1,8 +1,8 @@
 .menu-page-container { 
   display: flex;
-  justify-content: center;
+ 
   align-items: center;
-  padding: 100px 20%;
+  padding: 0 20%;
   flex-direction: column;
 }
 
@@ -10,7 +10,7 @@
   font-size: 40px;
   font-weight: 700;
   color: rgb(0, 0, 0);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .menu-container {
@@ -22,13 +22,13 @@
 
 @media (max-width: 1200px) {
   .menu-page-container {
-    padding: 100px 10%;
+    padding: 30px 10%;
   }
 }
 
 @media (max-width: 800px) {
   .menu-page-container {
-    padding: 100px 25px;
+    padding: 30px 25px;
   }
 
   .menu-page-container h1 {

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 20%;
+  padding: 35px 20%;
   flex-direction: column;
   width: 100%;
   box-sizing: border-box;
@@ -26,8 +26,8 @@
 
 h1 {
   text-align: center;
-  margin-bottom: 20px;
-  color: #333;
+  margin: 50px 0 20px 0;
+  font-size: 40px;
 }
 
 form .form-group {
@@ -99,4 +99,25 @@ form .form-group .error {
 
 .reserve-btn:hover {
   background-color: #f0d85f;
+}
+@media (max-width: 1200px) {
+  .reservation-form-container {
+    padding: 30px 10%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 800px) {
+  .reservation-form-container {
+    padding: 30px 25px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
 }

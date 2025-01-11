@@ -3,7 +3,7 @@ import '../Styles/components/AboutUs.css'
 import marioAdrina from '../assets/marioAdrian.webp'
 const AboutUs = () => {
   return (
-    <div className='about-us-container'>
+    <div className='about-us-container' id='about-us'>
        <h1>About Us</h1>
        <div className="about-us-content-container">
         <div className="about-us-text">

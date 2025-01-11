@@ -9,6 +9,7 @@ import pizzaImage from "../assets/pizzaImage.jpg";
 import burgerImage from "../assets/burgerImage.webp";
 import sushiImage from "../assets/sushiImage.jpg";
 import "../Styles/pages/Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const foodDetails = [
@@ -40,12 +41,11 @@ const Home = () => {
 
   return (
     <>
-      <Navbar />
       <Hero />
       <div className="todays-menu">
         <div className="top-text">
         <h2>This Weeks specials</h2>
-        <button>Menu</button>
+        <button><Link to='/menu'>Menu</Link></button>
         </div>
         <div className="todays-menu-container">
           {foodDetails.map((foodDetail, index) => (
@@ -55,7 +55,6 @@ const Home = () => {
       </div>
       <Testimonials/>
       <AboutUs/>
-      <Footer/>
     </>
   );
 };
