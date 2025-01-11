@@ -1,7 +1,7 @@
 
 # Little Lemon Capstone Project 🍋
 
-A frontend restaurant website built with React and Tailwind CSS. 🚀  
+A frontend restaurant website built with React. 🚀  
 This project was created while I was completing the Meta Front-End Developer Professional Certificate. 🎓
 
 ## Table of Contents
