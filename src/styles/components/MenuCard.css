@@ -11,7 +11,7 @@
 .menu-card-container .image-container{
   width: 100%;
   height: 220px;
-  object-fit: fill;
+  object-fit: cover;
   overflow: hidden;
 }
 .menu-card-container .image-container img{
@@ -25,13 +25,15 @@
   display: flex;
   justify-content: space-between;
 }
-.price, .food-name{
+.food-name{
   font-size: 18px;
   font-weight: 900;
   color: rgb(64, 64, 64);
 }
 .price{
-  color: rgb(196, 110, 110);
+  color: rgb(233, 151, 100);
+  font-size: 18px;
+  font-weight: 700;
 }
 .food-description{
   font-size: 14px;

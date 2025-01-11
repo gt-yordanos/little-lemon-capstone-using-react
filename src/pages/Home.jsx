@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Menu from "../components/MenuCard"; 
+import Menu from "../components/MenuCard";
+import Testimonials from "../components/Testimonials"; 
 import saladImage from "../assets/saladImage.jpg";
 import pizzaImage from "../assets/pizzaImage.jpg";
 import burgerImage from "../assets/burgerImage.webp";
@@ -50,6 +51,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Testimonials/>
     </>
   );
 };
