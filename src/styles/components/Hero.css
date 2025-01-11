@@ -36,6 +36,11 @@
   font-weight: 600;
   border: none;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+.hero-text button:hover{
+ background-color: #f0d85f;
+ transform: scale(1.05);
 }
 .hero-image-container{
   display: flex;

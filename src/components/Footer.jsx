@@ -12,10 +12,10 @@ const Footer = () => {
 
       <div className="menu-links">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Reservation</li>
+          <li className='link'>Home</li>
+          <li className='link'>About</li>
+          <li className='link'>Menu</li>
+          <li className='link'>Reservation</li>
           <li className='order-online'>Order Online</li>
         </ul>
       </div>

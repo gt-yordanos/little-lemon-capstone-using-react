@@ -25,6 +25,11 @@
   border: none;
   border-radius: 40px;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+.todays-menu button:hover{
+  background-color: #f0d85f;
+  transform: scale(1.05);
 }
 .todays-menu-container{
   display: grid;

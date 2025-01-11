@@ -12,12 +12,12 @@ const Navbar = () => {
       </div>
       <img src={littleLemonLogo} alt="" className='nav-logo' />
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Reservation</li>
+        <li className='link'>Home</li>
+        <li className='link'>About</li>
+        <li className='link'>Menu</li>
+        <li className='link'>Reservation</li>
         <li className='order-button'>Order Online</li>
-        <li>Login</li>
+        <li className='link'>Login</li>
       </ul>
       <div className="cart">
         <FaShoppingCart size={24} style={{ cursor: 'pointer', color: '#495E57' }} />

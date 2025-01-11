@@ -13,7 +13,13 @@
 }
 .footer-logo-container img{
  width: 60%;
+ transition: transform 0.2s ease;
+ cursor: pointer;
 }
+.footer-logo-container img:hover{
+ transform: scale(1.03);
+ }
+ 
 
 .menu-links, .menu-links ul{
   display: flex;
@@ -28,21 +34,36 @@
   justify-content: center;
   gap: 10px;
 }
-.menu-links ul li{
+.menu-links ul .link{
   list-style: none;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
+  transition: color 0.2s ease;
+}
+.menu-links ul .link:hover{
+  color:#576560;
 }
 .menu-links ul .order-online{
   padding: 10px 20px;
-  background: #576560;
+  background-color: #576560;
   color: white;
   border-radius: 17px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.menu-links ul .order-online:hover{
+  background-color: #677872;
 }
 .social-links ul li{
   list-style: none;
   cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.social-links ul li:hover{
+ opacity: 0.6;
 }
 
 .contact-detail{
@@ -62,6 +83,10 @@
   list-style: none;
   font-size: 14px;
   font-weight: 600;
+  transition: color 0.2s ease;
+}
+.contact-detail ul li:hover{
+  color: #576560;
 }
 
 @media (max-width: 1200px){

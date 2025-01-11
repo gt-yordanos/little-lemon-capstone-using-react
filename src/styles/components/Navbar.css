@@ -20,23 +20,42 @@
 .nav-logo{
   width: 130px;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
-.nav-container li{
+.nav-logo:hover{
+  transform: scale(1.05);
+}
+
+.nav-container ul .link{
   list-style: none;
   cursor: pointer;
+  transition: color 0.1s ease;
+}
+.nav-container ul  .link:hover{
+  color:#495E57;
 }
 .humbergur{
   display: none;
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.humbergur:hover{
+  transform: scale(1.05);
 }
 .order-button{
   padding: 10px 20px;
-  background: #495E57;
+  background-color: #495E57;
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
   border: none;
   border-radius: 17px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.order-button:hover{
+  background-color: #677872;
+  color: white;
 }
 .nav-container{
   display: flex;
@@ -45,6 +64,12 @@
   align-items: center;
   padding: 0 20%;
   margin: 15px 0;
+}
+.cart{
+  transition: transform 0.2s ease;
+}
+.cart:hover{
+transform: scale(1.05);
 }
 @media (max-width: 1200px) {
   .nav-container{
