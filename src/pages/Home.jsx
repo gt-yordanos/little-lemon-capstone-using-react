@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Menu from "../components/MenuCard";
+import AboutUs from "../components/AboutUs";
 import Testimonials from "../components/Testimonials"; 
 import saladImage from "../assets/saladImage.jpg";
 import pizzaImage from "../assets/pizzaImage.jpg";
@@ -52,6 +53,7 @@ const Home = () => {
         </div>
       </div>
       <Testimonials/>
+      <AboutUs/>
     </>
   );
 };
