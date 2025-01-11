@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <div className='footer-container'>
+    <footer className='footer-container'>
       <div className="footer-logo-container">
         <Link to='/' onClick={scrollToTop}>
           <img src={footerLogo} alt="Little Lemon Logo" />
@@ -80,7 +80,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 }
 

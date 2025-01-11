@@ -1,0 +1,17 @@
+.mobile-menu-container{
+  width: 100%;
+  background: #f0ebe0;
+  padding: 15px 0;
+  display: none;
+  transition: all 0.2s ease;
+}
+.mobile-menu-container ul{
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 770px) {
+  .mobile-menu-container{
+    display: flex;
+  }
+}

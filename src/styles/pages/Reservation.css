@@ -115,9 +115,15 @@ form .form-group .error {
   h1 {
     font-size: 30px;
   }
+  .reservation-container {
+    width: 60%;
+  }
 }
 @media (max-width: 500px) {
   h1 {
     font-size: 25px;
+  }
+  .reservation-container {
+    width: 70%;
   }
 }
