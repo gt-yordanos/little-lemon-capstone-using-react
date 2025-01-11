@@ -31,23 +31,14 @@
     padding: 100px 25px;
   }
 
-  .menu-page h1 {
+  .menu-page-container h1 {
     font-size: 25px;
   }
 }
 
 @media (max-width: 600px) {
-  .menu-page h1 {
-    font-size: 20px;
-  }
-
-  .menu-page h1 {
+  .menu-page-container h1 {
     font-size: 20px;
   }
 }
 
-@media (max-width: 450px) {
-  .menu-page h1 {
-    font-size: 18px;
-  }
-}
