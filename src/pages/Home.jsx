@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Menu from "../components/MenuCard";
+import MenuCard from "../components/MenuCard";
 import AboutUs from "../components/AboutUs";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer"; 
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="todays-menu-container">
           {foodDetails.map((foodDetail, index) => (
-            <Menu key={index} foodDetail={foodDetail} />
+            <MenuCard key={index} foodDetail={foodDetail} />
           ))}
         </div>
       </div>
