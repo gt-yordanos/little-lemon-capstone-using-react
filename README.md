@@ -1,3 +1,4 @@
+
 # Little Lemon Capstone Project 🍋
 
 A frontend restaurant website built with React and Tailwind CSS. 🚀  
@@ -8,8 +9,6 @@ This project was created while I was completing the Meta Front-End Developer Pro
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
@@ -26,8 +25,36 @@ The Little Lemon Capstone project is a restaurant website built with React and T
 
 To get started with this project, clone the repository and install the necessary dependencies.
 
-Clone the repository:
+### Clone the Repository:
 
 ```bash
 git clone https://github.com/gt-yordanos/little-lemon-capstone-using-react.git
 cd little-lemon-capstone-using-react
+```
+
+### Install Dependencies:
+
+```bash
+npm install
+```
+
+### Install Additional Dependencies:
+
+```bash
+npm install react-router-dom
+npm install react-hook-form
+npm install react-icons
+```
+
+## Usage
+
+### Start the Development Server:
+
+```bash
+npm run dev
+```
+
+### Open the App:
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action. 🌐
+
